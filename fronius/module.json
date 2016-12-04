@@ -1,28 +1,13 @@
  {
 	"id": "{4586A133-1A82-4729-90DF-5B1B856483B1}",
-	"name": "Netatmo health home coach",
+	"name": "Fronius",
 	"type": 3,
 	"vendor": "stuzi",
-	"aliases": [ "Netatmo Coach"],
+	"aliases": [ "Fronius"],
 	"parentRequirements": [],
 	"childRequirements": [],
 	"implemented": [],
 	"prefix": "NAW"
-
-    "elements":
-    [
-    { "type": "ValidationTextBox", "name": "IP Adress", "caption": "IP Adress" }
-    ],
-    "actions":
-    [
-        ... //Hier Formularfelder einfügen
-    ],
-    "status":
-    [
-        { "code": 100, "icon": "active", "caption": "Login information valid" },
-        { "code": 200, "icon": "error", "caption": "Authentication failed" },
-        { "code": 300, "icon": "error", "caption": "No credits left" }
-    ]
 }
 
 
