@@ -31,6 +31,36 @@
 	{
 		// test
 	}
+	    
+	    
+	    
+	    		private function CreateCategoryByIdent($id, $ident, $name) {
+			
+			 $cid = @IPS_GetObjectIDByIdent($ident, $id);
+			 if($cid === false)
+			 {
+				 $cid = IPS_CreateCategory();
+				 IPS_SetParent($cid, $id);
+				 IPS_SetName($cid, $name);
+				 IPS_SetIdent($cid, $ident);
+			 }
+			 return $cid;
+		}
+		
+		private function CreateVariableByIdent($id, $ident, $name, $type, $profile = "") {
+			
+			 $vid = @IPS_GetObjectIDByIdent($ident, $id);
+			 if($vid === false)
+			 {
+				 $vid = IPS_CreateVariable($type);
+				 IPS_SetParent($vid, $id);
+				 IPS_SetName($vid, $name);
+				 IPS_SetIdent($vid, $ident);
+				 if($profile != "")
+					IPS_SetVariableCustomProfile($vid, $profile);
+			 }
+			 return $vid;
+		}
 }
 ?>
 
