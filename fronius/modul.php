@@ -1,5 +1,6 @@
+
 <?
-    // Klassendefinition
+{ // Klassendefinition
     class Fronius extends IPSModule {
         /**
         * Die folgenden Funktionen stehen automatisch zur Verfügung, wenn das Modul über die "Module Control" eingefügt wurden.
