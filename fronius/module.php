@@ -3,24 +3,32 @@
     class fronius extends IPSModule {
 	    
 	    
-	public function __construct($InstanceID) {
-            // Diese Zeile nicht löschen
-            parent::__construct($InstanceID);
-        }
-
 	    // Überschreibt die interne IPS_Create($id) Funktion
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-	    $this->RegisterPropertyString("ip", "ip");
+	    
         }
  
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
         public function ApplyChanges() {
             // Diese Zeile nicht löschen
             parent::ApplyChanges();
-	   $this->CreateCategoryByIdent($this->InstanceID, "PV", "PV");
+	$this->CreateCategoryByIdent($this->InstanceID, "PV", "PV");
+   	$this->CreateCategoryByIdent($this->InstanceID, "Sensors", "Sensors");
+	$this->CreateCategoryByIdent($this->InstanceID, "Targets", "Alert Target");
+	$this->CreateVariableByIdent($this->InstanceID, "Active", "Active", 0, "~Switch");
+	$this->EnableAction("Active");
+	$this->CreateVariableByIdent($this->InstanceID, "Alert", "Alert", 0, "~Alert");
+	$this->EnableAction("Alert");
+	$this->RegisterPropertyString("ip", "ip");
         }
+	    
+	public function Destroy() {
+	//Never delete this line!
+	parent::Destroy();
+	}
+
  
         /**
         * Die folgenden Funktionen stehen automatisch zur Verfügung, wenn das Modul über die "Module Control" eingefügt wurden.
