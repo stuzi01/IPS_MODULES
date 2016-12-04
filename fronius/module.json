@@ -3,7 +3,10 @@
     "name": "fonius",
     "type": 3,
     "vendor": "stuzi",
-    "aliases":[],  
+    "aliases":
+    [
+    "Fronius"
+    ],  
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
