@@ -1,23 +1,12 @@
 <?
    // Klassendefinition
     class fronius extends IPSModule {
- 
-        // Der Konstruktor des Moduls
-        // Überschreibt den Standard Kontruktor von IPS
-	    
-      //  public function __construct($InstanceID) {
-            // Diese Zeile nicht löschen
-      //      parent::__construct($InstanceID);
- 
-            // Selbsterstellter Code
-      //  }
- 
-        // Überschreibt die interne IPS_Create($id) Funktion
+
+	    // Überschreibt die interne IPS_Create($id) Funktion
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-            //$this->RegisterPropertyString("ip adress", "");
-	    $this->RegisterPropertyString("ip", "");
+	    $this->RegisterPropertyString("ip", "ip");
         }
  
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
