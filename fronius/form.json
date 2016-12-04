@@ -1,0 +1,15 @@
+[
+"elements":
+    [
+    { "type": "ValidationTextBox", "name": "IP Adress", "caption": "IP Adress" }
+    ],
+    "actions":
+    [
+        ... //Hier Formularfelder einfügen
+    ],
+    "status":
+    [
+        { "code": 100, "icon": "active", "caption": "Login information valid" },
+        { "code": 200, "icon": "error", "caption": "Authentication failed" },
+        { "code": 300, "icon": "error", "caption": "No credits left" }
+]
