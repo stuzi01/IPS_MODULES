@@ -1,5 +1,5 @@
 <?
-    // Klassendefinition
+{   // Klassendefinition
     class fronius extends IPSModule {
  
         // Der Konstruktor des Moduls
