@@ -37,6 +37,11 @@
         public function MeineErsteEigeneFunktion() {
             // Selbsterstellter Code
         }
+	public function ShowData() 
+	{
+	}
+	public function GetData() 
+	{
     }
 ?>
 
