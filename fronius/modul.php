@@ -24,12 +24,3 @@
     }
 ?>
 
-
- class Netatmo extends IPSModule {
-    
-    private $client;
-    private $tokens;     	
-    private $refresh_token;
-    private $access_token;
-    private $deviceList;
-    private $echoString;
