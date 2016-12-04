@@ -1,0 +1,14 @@
+{
+    "elements":
+    [
+    { "type": "ValidationTextBox", "name": "IP Adress", "caption": "IP Adress" }
+    ],
+    "actions":
+    [
+        ... //Hier Formularfelder einfügen
+    ],
+    "status":
+    [
+        ... //Hier Statusmeldungen einfügen
+    ]
+}
