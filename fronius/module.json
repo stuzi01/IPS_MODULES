@@ -9,6 +9,8 @@
     ],
     "status":
     [
-        ... //Hier Statusmeldungen einfügen
+        { "code": 100, "icon": "active", "caption": "Login information valid" },
+        { "code": 200, "icon": "error", "caption": "Authentication failed" },
+        { "code": 300, "icon": "error", "caption": "No credits left" }
     ]
 }
