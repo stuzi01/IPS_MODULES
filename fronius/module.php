@@ -5,19 +5,19 @@
         // Der Konstruktor des Moduls
         // Überschreibt den Standard Kontruktor von IPS
 	    
-        public function __construct($InstanceID) {
+      //  public function __construct($InstanceID) {
             // Diese Zeile nicht löschen
-            parent::__construct($InstanceID);
+      //      parent::__construct($InstanceID);
  
             // Selbsterstellter Code
-        }
+      //  }
  
         // Überschreibt die interne IPS_Create($id) Funktion
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
             //$this->RegisterPropertyString("ip adress", "");
-		$this->RegisterPropertyString("ip", "");
+	    $this->RegisterPropertyString("ip", "");
         }
  
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
@@ -33,9 +33,6 @@
         * ABC_MeineErsteEigeneFunktion($id);
         *
         */
-        public function MeineErsteEigeneFunktion() {
-            // Selbsterstellter Code
-        }
 	public function PVShowData() 
 	{
 		// test
