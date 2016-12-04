@@ -4,6 +4,7 @@
  
         // Der Konstruktor des Moduls
         // Überschreibt den Standard Kontruktor von IPS
+	    
         public function __construct($InstanceID) {
             // Diese Zeile nicht löschen
             parent::__construct($InstanceID);
@@ -15,10 +16,7 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-            
-        	parent::Create();
-		$this->RegisterPropertyString("ip adress", "");
-
+            $this->RegisterPropertyString("ip adress", "");
         }
  
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
@@ -39,8 +37,11 @@
         }
 	public function ShowData() 
 	{
+		// test
 	}
 	public function GetData() 
+	{
+		// test
 	{
 }
 ?>
