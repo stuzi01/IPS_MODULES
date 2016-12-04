@@ -8,8 +8,28 @@
         * ABC_MeineErsteEigeneFunktion($id);
         *
         */
+        
+    private $client;
+    private $tokens;     	
+    private $refresh_token;
+    private $access_token;
+    private $deviceList;
+    private $echoString;
+        
+        
+        
         public function MeineErsteEigeneFunktion() {
             echo $this->InstanceID;
         }
     }
 ?>
+
+
+ class Netatmo extends IPSModule {
+    
+    private $client;
+    private $tokens;     	
+    private $refresh_token;
+    private $access_token;
+    private $deviceList;
+    private $echoString;
