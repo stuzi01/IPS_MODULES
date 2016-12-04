@@ -20,7 +20,7 @@
                 {
                     "type": "Button",
                     "label": "PVGetData",
-                    "onClick": "FRON_PVSaveData($id);"
+                    "onClick": "FRON_PVGetData($id);"
                 }
             ]
 }
