@@ -1,9 +1,7 @@
 {
 	"elements":
 	[
-		{ "name": "IP Adresse", "type": "ValidationTextBox", "caption": "ip adress" },
-
-	
+		{ "name": "ip", "type": "ValidationTextBox", "caption": "ip" },
 	],
 	 "status":
     [
