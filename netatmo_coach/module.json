@@ -1,0 +1,11 @@
+ {
+	"id": "{6d2c8e40-bd45-45b6-a575-6f5871d4ffc3}",
+	"name": "Netatmo Coach",
+	"type": 3,
+	"vendor": "stuzi",
+	"aliases": [ "Netatmo Coach"],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "NAW"
+}
