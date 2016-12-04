@@ -1,16 +1,13 @@
 {
     "id": "{4586A133-1A82-4729-90DF-5B1B856483B1}",
-    "name": "Fronius",
+    "name": "fonius",
     "type": 3,
-    "vendor": "",
-    "aliases":
-    [
-        "Symo",
-    ],  
+    "vendor": "stuzi",
+    "aliases":[],  
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
-    "prefix": "ABC"
+    "prefix": "FRON"
 }
 
 
