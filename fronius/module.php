@@ -15,6 +15,12 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
+            
+            		//These lines are parsed on Symcon Startup or Instance creation
+		//You cannot use variables here. Just static values.
+		$this->RegisterPropertyInteger("TimeBase", 0);
+	
+		$this->CreateCategoryByIdent($this->InstanceID, "Targets", "Targets (Watchdog)");
  
         }
  
