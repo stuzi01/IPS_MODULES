@@ -6,7 +6,8 @@
 	    // Überschreibt die interne IPS_Create($id) Funktion
         public function Create() {
             // Diese Zeile nicht löschen.
-            parent::Create();
+        parent::Create();
+	$this->RegisterPropertyString("ip", "ip Adresse im DFormat xxx.xxx.xxx.xxx");
 	    
         }
  
@@ -21,7 +22,7 @@
 	$this->EnableAction("Active");
 	$this->CreateVariableByIdent($this->InstanceID, "Alert", "Alert", 0, "~Alert");
 	$this->EnableAction("Alert");
-	$this->RegisterPropertyString("ip", "ip");
+	
         }
 	    
 	public function Destroy() {
