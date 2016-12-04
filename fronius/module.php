@@ -42,7 +42,7 @@
 	public function GetData() 
 	{
 		// test
-	{
+	}
 }
 ?>
 
