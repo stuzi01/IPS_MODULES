@@ -23,5 +23,6 @@
             echo $this->InstanceID;
         }
     }
+}
 ?>
 
