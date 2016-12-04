@@ -17,13 +17,8 @@
             parent::Create();
             
         	parent::Create();
-		$this->RegisterPropertyString("username", "");
-		$this->RegisterPropertyString("password", "");
-		$this->RegisterPropertyString("client_id", "");
-		$this->RegisterPropertyString("client_secret", "");
-		$this->RegisterPropertyBoolean("logging", false);
-		$this->RegisterPropertyInteger("archive", 0);
-		$this->RegisterTimer("ReadNetatmo", 300, 'NAW_SaveData($_IPS[\'TARGET\']);');
+		$this->RegisterPropertyString("ip adress", "");
+
         }
  
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
