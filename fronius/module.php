@@ -36,11 +36,11 @@
         public function MeineErsteEigeneFunktion() {
             // Selbsterstellter Code
         }
-	public function ShowData() 
+	public function PVShowData() 
 	{
 		// test
 	}
-	public function GetData() 
+	public function PVGetData() 
 	{
 		// test
 	}
