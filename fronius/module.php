@@ -42,6 +42,6 @@
 	}
 	public function GetData() 
 	{
-    }
+ 
 ?>
 
