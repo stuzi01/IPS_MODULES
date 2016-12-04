@@ -14,13 +14,13 @@
             [
                 {
                     "type": "Button",
-                    "label": "ShowData",
-                    "onClick": "FRON_ShowData($id);"
+                    "label": "PVShowData",
+                    "onClick": "FRON_PVShowData($id);"
                 },
                 {
                     "type": "Button",
-                    "label": "GetData",
-                    "onClick": "FRON_SaveData($id);"
+                    "label": "PVGetData",
+                    "onClick": "FRON_PVSaveData($id);"
                 }
             ]
 }
