@@ -16,7 +16,7 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-            $this->RegisterPropertyString("ip adress", "");
+            //$this->RegisterPropertyString("ip adress", "");
         }
  
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
